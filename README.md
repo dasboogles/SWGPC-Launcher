@@ -1,5 +1,5 @@
-## Launcher used for SWGemu community server "Project Carbonite"
-# Adapted from TCW's Launcher by: Boogles
+# Launcher used for SWGemu community server "Project Carbonite"
+## Adapted from TCW's Launcher by: Boogles
 
 **Electron application based on [dpwhitter's RoC Launcher](https://github.com/dpwhittaker/RoC-Launcher) and [Tylco's SR Launcher](https://github.com/DesporoWace/SR-Launcher)**
 
