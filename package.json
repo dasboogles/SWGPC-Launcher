@@ -1,0 +1,56 @@
+{
+  "name": "swgpc-launcher",
+  "version": "1.0.1",
+  "description": "Project Carbonite Launcher",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build-win": "build --win --ia32",
+    "build-linux": "build --linux --x64",
+    "build-mac": "build --mac --x64"
+  },
+  "repository": "https://github.com/DasBoogles/SWGPC-Launcher",
+  "homepage": "http://projectcarbonite.net",
+  "keywords": [
+    "project",
+    "carbonite",
+    "wars",
+    "launcher",
+    "installer",
+    "swg",
+    "star",
+    "wars",
+    "galaxies",
+    "emulator",
+    "emu",
+    "swgemu"
+  ],
+  "author": "Progor adapted by Tyclo adapted by Vlad",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^2.0.13",
+    "electron-builder": "^20.31.2"
+  },
+  "dependencies": {
+    "adm-zip": "^0.4.11",
+    "electron-is-dev": "^0.2.0",
+    "electron-log": "^2.2.17",
+    "electron-updater": "^3.0.3",
+    "follow-redirects": "^1.5.9",
+    "mkdirp": "^0.5.1",
+    "random-access-file": "^1.8.1",
+    "request": "^2.88.0"
+  },
+  "build": {
+    "productName": "Project Carbonite Launcher",
+    "win": {
+      "target": [
+        "nsis",
+        "zip"
+      ]
+    },
+    "nsis": {
+      "perMachine": true
+    }
+  }
+}

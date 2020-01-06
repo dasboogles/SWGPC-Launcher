@@ -1,0 +1,8 @@
+{
+	"prod": [
+		{"address":"live.projectcarbonite.com","port":"44453","manifestUrl":"https://www.dropbox.com/s/1ct6ajh2ncj60z4/test_manifest.json?dl=1","statusUrl":""}
+	],
+	"test": [
+		{"address":"test.projectcarbonite.com","port":"44453","manifestUrl":"https://www.dropbox.com/s/1ct6ajh2ncj60z4/test_manifest.json?dl=1","statusUrl":""}
+	]
+}
