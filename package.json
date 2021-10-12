@@ -28,7 +28,7 @@
   "author": "Progor adapted by Tyclo adapted by Vlad",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^2.0.13",
+    "electron": "^11.5.0",
     "electron-builder": "^20.31.2"
   },
   "dependencies": {
